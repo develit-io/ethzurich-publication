@@ -4,6 +4,9 @@ devDependencies:
   '@antfu/eslint-config':
     specifier: ^0.38.4
     version: 0.38.4(eslint@8.38.0)(typescript@5.0.4)
+  '@iconify-json/heroicons-solid':
+    specifier: ^1.1.7
+    version: 1.1.7
   '@nuxt/devtools':
     specifier: ^0.4.0
     version: 0.4.0(nuxt@3.4.1)(vite@4.2.1)
@@ -19,6 +22,9 @@ devDependencies:
   nuxt:
     specifier: ^3.4.1
     version: 3.4.1(@types/node@18.15.11)(eslint@8.38.0)(typescript@5.0.4)(vue-tsc@1.2.0)
+  nuxt-headlessui:
+    specifier: ^1.1.1
+    version: 1.1.1(vue@3.2.47)
   pnpm:
     specifier: ^8.2.0
     version: 8.2.0
@@ -747,6 +753,15 @@ packages:
       '@hapi/hoek': 9.3.0
     dev: true
 
+  /@headlessui/vue@1.7.13(vue@3.2.47):
+    resolution: {integrity: sha512-obG5TdPdBDfs+jiA1mY29LPFqyJl93Q90EL86ontfRe1B6XvbjPkx+x1aAC5DA18bXbb0Juni1ayDbXo0w1u0A==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: 3.2.47
+    dev: true
+
   /@humanwhocodes/config-array@0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}
     engines: {node: '>=10.10.0'}
@@ -765,6 +780,12 @@ packages:
 
   /@humanwhocodes/object-schema@1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify-json/heroicons-solid@1.1.7:
+    resolution: {integrity: sha512-eHg55+AvKHHxhg9D3s+ldW8yh3myWeC5LH36OGF1w25e41ruixIlpCEcXbnvREH0y7XV7NY1AykGQ8rDVwA9cQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
     dev: true
 
   /@iconify/types@2.0.0:
@@ -6220,6 +6241,18 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /nuxt-headlessui@1.1.1(vue@3.2.47):
+    resolution: {integrity: sha512-sf8qZQvGDaI+uNnKuynFGY+VXScDNEj3W0LMjv2XH4jO4ksQzbliCB9Hl5cdd/VIFPVmnZm+dnneURSI4/1fXw==}
+    dependencies:
+      '@headlessui/vue': 1.7.13(vue@3.2.47)
+      '@nuxt/kit': 3.4.1
+      pathe: 1.1.0
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+      - vue
     dev: true
 
   /nuxt@3.4.1(@types/node@18.15.11)(eslint@8.38.0)(typescript@5.0.4)(vue-tsc@1.2.0):

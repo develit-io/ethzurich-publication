@@ -19,15 +19,18 @@ export default defineConfig({
     presetWebFonts({
       provider: 'google',
       fonts: {
-        montserat: 'Montserrat',
+        ubuntu: 'Ubuntu Mono',
       },
     }),
   ],
   theme: {
     colors: {
       app: {
-
+        background: '#1e2636',
       },
+    },
+    container: {
+      center: true,
     },
   },
 })

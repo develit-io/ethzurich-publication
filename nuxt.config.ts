@@ -4,8 +4,12 @@ export default defineNuxtConfig({
     '@nuxt/devtools',
     '@unocss/nuxt',
     '@vueuse/nuxt',
+    'nuxt-headlessui',
   ],
   css: [
     '@unocss/reset/tailwind.css',
   ],
+  headlessui: {
+    prefix: 'Headless',
+  },
 })
