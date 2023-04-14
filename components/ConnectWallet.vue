@@ -6,7 +6,7 @@ const emit = defineEmits<{
 
 <template>
   <div flex items-center justify-center h-full>
-    <button bg="white hover:white/80" rounded-16px px-24px py-16px text-24px @click="emit('connect')">
+    <button bg="white/10 hover:white/20" rounded-16px px-24px py-16px text="white 24px" @click="emit('connect')">
       Connect Wallet
     </button>
   </div>
