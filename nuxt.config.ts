@@ -14,6 +14,14 @@ export default defineNuxtConfig({
     prefix: 'Headless',
   },
   pinia: {
-    autoImports: ['defineStore', 'acceptHMRUpdate'],
+    autoImports: ['defineStore', 'acceptHMRUpdate', 'storeToRefs'],
+  },
+  vite: {
+    plugins: [
+      // nodePolyfills(),
+    ],
+  },
+  routeRules: {
+    '/**': { ssr: false },
   },
 })

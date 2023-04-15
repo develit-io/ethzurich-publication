@@ -4,6 +4,7 @@ const logged = ref(false)
 
 <template>
   <div h-full>
+    <Wallet />
     <NuxtPage v-if="logged" />
     <ConnectWallet v-else @connect="logged = true" />
   </div>
