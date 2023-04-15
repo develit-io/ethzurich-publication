@@ -12,7 +12,7 @@ const statuses = { published: 'text-green-400 bg-green-400/10', inProgress: 'tex
 
 <template>
   <div w-full mt-32px>
-    <table class="mt-6 w-full whitespace-nowrap text-left">
+    <table v-if="publications?.length" class="mt-6 w-full whitespace-nowrap text-left">
       <colgroup>
         <col class="w-full sm:w-4/12">
         <col class="lg:w-4/12">

@@ -58,7 +58,7 @@ const filteredTopics = computed(() =>
 
 function submit() {
   register()
-  router.push('/')
+  router.push('/publications')
 }
 </script>
 
