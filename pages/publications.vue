@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { formatDate, remainingTime } from '~/utils'
+import { formatDate, remainingTime } from '~/utils/utils'
 
 const { changeTitle } = useLayout()
 
