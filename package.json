@@ -12,7 +12,6 @@
     "lint:fix": "eslint . --fix",
     "typecheck": "nuxt typecheck --no-emit"
   },
-
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.4",
     "@iconify-json/heroicons-solid": "^1.1.7",
@@ -21,6 +20,7 @@
     "@unocss/nuxt": "^0.51.3",
     "@vueuse/nuxt": "^9.13.0",
     "eslint": "^8.38.0",
+    "moment": "^2.29.4",
     "nuxt": "^3.4.1",
     "nuxt-headlessui": "^1.1.1",
     "pnpm": "^8.2.0",
