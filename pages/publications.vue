@@ -3,7 +3,7 @@ import { formatDate, remainingTime } from '~/utils/utils'
 
 const { changeTitle } = useLayout()
 
-const { publications } = usePublications()
+const { publications } = storeToRefs(usePublications())
 
 onMounted(() => changeTitle('My Publications'))
 
