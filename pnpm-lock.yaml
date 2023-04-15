@@ -7,6 +7,9 @@ devDependencies:
   '@iconify-json/heroicons-solid':
     specifier: ^1.1.7
     version: 1.1.7
+  '@julr/unocss-preset-forms':
+    specifier: ^0.0.5
+    version: 0.0.5(unocss@0.51.3)
   '@nuxt/devtools':
     specifier: ^0.4.0
     version: 0.4.0(nuxt@3.4.1)(vite@4.2.1)
@@ -28,6 +31,9 @@ devDependencies:
   ethers:
     specifier: <6
     version: 5.7.2
+  moment:
+    specifier: ^2.29.4
+    version: 2.29.4
   nuxt:
     specifier: ^3.4.1
     version: 3.4.1(@types/node@18.15.11)(eslint@8.38.0)(typescript@5.0.4)(vue-tsc@1.2.0)
@@ -1287,6 +1293,16 @@ packages:
     dependencies:
       '@json-rpc-tools/types': 1.7.6
       '@pedrouid/environment': 1.0.1
+    dev: true
+
+  /@julr/unocss-preset-forms@0.0.5(unocss@0.51.3):
+    resolution: {integrity: sha512-lUMhKc8KooObDWIs0wyqh903ix5a6PRHtq1RAszhyEoDR2aqbnfSXnv0QiG2lDp2AWafioNbgquFGiUyyJCDVg==}
+    engines: {node: '>=16'}
+    peerDependencies:
+      unocss: '>= 0.31.13 < 1'
+    dependencies:
+      mini-svg-data-uri: 1.4.4
+      unocss: 0.51.3(@unocss/webpack@0.51.3)(postcss@8.4.21)(vite@4.2.1)
     dev: true
 
   /@ledgerhq/connect-kit-loader@1.0.2:
@@ -7665,6 +7681,11 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
+  /mini-svg-data-uri@1.4.4:
+    resolution: {integrity: sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==}
+    hasBin: true
+    dev: true
+
   /minimalistic-assert@1.0.1:
     resolution: {integrity: sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==}
     dev: true
@@ -7847,6 +7868,10 @@ packages:
       yargs: 16.2.0
       yargs-parser: 20.2.4
       yargs-unparser: 2.0.0
+    dev: true
+
+  /moment@2.29.4:
+    resolution: {integrity: sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==}
     dev: true
 
   /motion@10.15.5:

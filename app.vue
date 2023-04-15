@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout container font-ubuntu h-full />
+  <NuxtLayout container font-ubuntu text-white h-full />
 </template>
 
 <style>
