@@ -40,7 +40,7 @@ const statuses = { published: 'text-green-400 bg-green-400/10', inProgress: 'tex
         </tr>
       </thead>
       <tbody class="divide-y divide-white/5">
-        <tr v-for="article in publications" :key="article.address">
+        <tr v-for="article in publications" :key="article.address" class="hover:bg-app-primary/40" @click="$router.push(`/publications/${article.address}`)">
           <td class="py-8px pr-16px">
             <div class="flex items-center gap-x-4">
               <div class="truncate text-sm font-medium leading-6 text-white">
