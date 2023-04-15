@@ -6,6 +6,7 @@ const { title } = useLayout()
 
 <template>
   <div h-full px-24px py-16px>
+    <Wallet />
     <ConnectWallet v-if="!connected" @connect="connected = true" />
     <div v-else flex flex-col w-full h-full>
       <div flex items-center justify-between>

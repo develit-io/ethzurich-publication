@@ -5,11 +5,23 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@vueuse/nuxt',
     'nuxt-headlessui',
+    '@pinia/nuxt',
   ],
   css: [
     '@unocss/reset/tailwind.css',
   ],
   headlessui: {
     prefix: 'Headless',
+  },
+  pinia: {
+    autoImports: ['defineStore', 'acceptHMRUpdate', 'storeToRefs'],
+  },
+  vite: {
+    plugins: [
+      // nodePolyfills(),
+    ],
+  },
+  routeRules: {
+    '/**': { ssr: false },
   },
 })
