@@ -6,10 +6,13 @@ import {
   presetWebFonts,
 } from 'unocss'
 
+import { presetForms } from '@julr/unocss-preset-forms'
+
 export default defineConfig({
   shortcuts: [
 
   ],
+  exclude: ['display'],
   presets: [
     presetUno(),
     presetAttributify(),
@@ -19,13 +22,15 @@ export default defineConfig({
     presetWebFonts({
       provider: 'google',
       fonts: {
-        ubuntu: 'Ubuntu Mono',
+        ubuntu: 'Ubuntu',
       },
     }),
+    presetForms(),
   ],
   theme: {
     colors: {
       app: {
+        primary: '#0072C6',
         background: '#1e2636',
       },
     },

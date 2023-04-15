@@ -12,9 +12,11 @@
     "lint:fix": "eslint . --fix",
     "typecheck": "nuxt typecheck --no-emit"
   },
+
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.4",
     "@iconify-json/heroicons-solid": "^1.1.7",
+    "@julr/unocss-preset-forms": "^0.0.5",
     "@nuxt/devtools": "^0.4.0",
     "@unocss/nuxt": "^0.51.3",
     "@vueuse/nuxt": "^9.13.0",

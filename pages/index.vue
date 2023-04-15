@@ -1,4 +1,12 @@
 <script lang="ts" setup>
+const router = useRouter()
+
+const { user } = useUser()
+
+onMounted(() => {
+  if (!user.value)
+    router.push('register')
+})
 </script>
 
 <template>
