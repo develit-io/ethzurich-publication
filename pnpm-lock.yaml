@@ -41,8 +41,8 @@ devDependencies:
     specifier: ^1.1.1
     version: 1.1.1(vue@3.2.47)
   pnpm:
-    specifier: ^8.2.0
-    version: 8.2.0
+    specifier: ^8.6.8
+    version: 8.6.8
   taze:
     specifier: ^0.9.1
     version: 0.9.1
@@ -8961,8 +8961,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /pnpm@8.2.0:
-    resolution: {integrity: sha512-f2/abl6GycxLgVZQtWA2zBJKMXcv2L86HGRwJ4qnS02gVzLgtFegC25qWKFtUunCY74GUwxq2A7yGAJEyOuCYg==}
+  /pnpm@8.6.8:
+    resolution: {integrity: sha512-OtrCRUE7VqRyKly9E3gfExZHOAHtFDpmulyVFKrnl3v/n2xJckdueVumWJqUA5FHxcRP/T42r8P8CDr9duPP9w==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
